@@ -1,0 +1,22 @@
+img{
+width:100%;
+background-image: url(../photos/download.png)
+
+}
+.pretty{
+background-color:blue;
+color: white;
+box-shadow: 2px 3px 5px 1px;
+
+}
+
+.pretty:hover{
+background-color: lightgoldenrodyellow;
+color:black;
+
+
+
+}
+
+
+

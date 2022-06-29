@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="st2.css">
+    <title>main test</title>
+
+</head>
+<body>
+<button onclick="window.open('index.html')"  >back to main page </button>
+<h1> this is where the real test begain are u up to the task keep a look out for hidden buttons and refrences </h1>
+
+<h2>Q1 when was i born</h2>
+<button id="raw" onclick="check()">2008</button>
+<button id="raw2"onclick="check2()">2007</button>
+<button id="raw3"onclick="check3()">2006</button>
+
+<script>
+let a  = '2008';
+
+function check (){
+let raw =2008 + document.querySelector("raw");
+if (raw==raw ){
+    alert("correct notice something");
+}
+}
+function check2 (){
+let raw2 = document.querySelector("raw2");
+if (raw2==raw2 ){
+    alert("incorrect notice something");
+}
+}
+function check3 (){
+let raw3 = document.querySelector("raw");
+if (raw3 == raw3 ){
+    alert("incorrect notice something");
+}
+}
+</script>
+<div>
+    <h2>Q2 in which city do i live in egypt</h2>
+    <button id="city" onclick="city()">CAIRO</button>
+    <button id="city2"onclick="city2()">giza</button>
+    <button id="city3"onclick="city3()">bashar al asad</button>
+    <!-- hide this button -->
+    <button id="hidden"onclick="window.open('../eggs/egg.html')">u found Giza no</button>    
+</div>
+ <script>
+function city (){
+let city =2008 + document.querySelector("city");
+if (city==city ){
+    alert("WTF NO IDIOT but its a refrence ");
+}
+}
+function city2 (){
+let city2 = document.querySelector("city2");
+if (city2==city2 ){
+    alert("where is giza look for it");
+}
+}
+function city3 (){
+let city3 = document.querySelector("city3");
+if (city3 == city3 ){
+    alert("BAHSAR CITY SIMULATOR ");
+}
+}
+</script>
+<div>
+    <h2>Q3 who is yousef best freind</h2>
+    <button id="freind" onclick="freind()">his pc</button>
+    <button id="freind2"onclick="friend2()">abdulrahman</button>
+    <button id="freind3"onclick="friend3()">ME</button>
+    <!-- hide this button -->
+    <button id="hidden"onclick="window.open('../eggs/ohhh.html')"> thank u mate</button>    
+</div>
+<script>
+function freind (){
+let freind= document.querySelector("freind");
+if (freind==freind ){
+    alert("U WILL BE BECOME AN ADDICT ");
+}
+}
+function friend2 (){
+let friend2 = document.querySelector("freind2");
+if (freind2 == freind2){
+    alert("excpected but abit suprised and i wonder abdulrahman why did u click on this huh ?");
+}
+}
+function friend3(){
+let friend3 = document.querySelector("freind3");
+if (friend3 == friend3 ){
+    alert("im surprised u clicked on this ");
+}
+}
+</script>
+
+<div>
+    <h2>Q4 how many epsiods are there in jojo start dust cursadurs se3</h2>
+    <button id="freind" onclick="jojo()">24</button>
+    <button id="freind2"onclick="jojo2()">21</button>
+    <button id="freind3"onclick="jojo3()">23</button>
+    <!-- hide this button -->
+    <button id="hidden"onclick="alert('my favorite food is bashamell')">u know</button>    
+</div>
+
+
+<script>
+function jojo (){
+let jojo= document.querySelector("jojo");
+if (jojo==jojo ){
+    alert(" YARE YARE DAZE");
+}
+}
+function jojo2 (){
+let jojo2 = document.querySelector("jojo2");
+if (jojo2 == jojo2){
+    alert("whats 9 + 10");
+}
+}
+function jojo3(){
+let jojo3= document.querySelector("jojo3");
+if (jojo3 == jojo3 ){
+    alert(" dont use google   ");
+}
+}
+
+
+</script>
+
+<div>
+    <h2>Q5 what is my favorite Type of food </h2>
+    <button id="freind" onclick="food()">kimishi</button>
+    <button id="freind2"onclick="food2()">FISH</button>
+    <button id="freind3"onclick="food3()">bashamell</button>
+    <!-- hide this button -->
+    <button id="hidden"onclick="alert('')">     </button>    
+</div>
+<script>
+
+
+
+</script>
+
+
+
+
+</body>
+</html>

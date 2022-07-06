@@ -1,6 +1,6 @@
 * {
-padding:1px ;
-margin:1px;
+padding:2px ;
+margin:2px;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -12,13 +12,12 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .welcome_photos{
 position: relative;
 left: -380px;
-width: 1800px;
+width: 1000px;
 background-color: cyan;
 
 }
 .wd{
 border-radius: 30px;
-up:700px;
 position: relative;
 left:750px;
 
@@ -26,7 +25,8 @@ left:750px;
 /*this is for the black one */
 }
 .what{
-background-color:black
+background-color:black;
+
 
 }
 
@@ -34,7 +34,7 @@ background-color:black
 display: none;    
 border:none;
 position: relative;
-left:400px;
+right:90px;
 bottom: 20px;
 background-color: cyan;
 color:cyan;
@@ -107,7 +107,7 @@ text-align: center;
 .bt2:hover{
 
     transition: 100ms;
-    background-color:red;
+    background-color:black;
     color:white;
 
 }
@@ -255,12 +255,836 @@ text-align: center;
   }
 }
 
-@media (min-width: 768px) {
+
+
+@media only screen and  (min-width:320px){
+
+/* this is the welcome css photo  */
+.welcome_photos{
+  position:relative;
+  left:0px;
+ width: 360px;
+background-color: cyan;
+  
+  }
+  .wd{
+  width:360px;
+  border-radius: 30px;
+  position: relative;
+  left:-2px;
+
+  
+  
+  /*this is for the black one */
+  }
+  .what{
+    font-size: 14px;
+  text-align:center;
+  background-color:black;
+  width:360px;
+  position: relative;
+  left: 1px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+.wd1{
+    width:270px;
+    background-color: black;
+    border-radius: 30px;
+    position: relative;
+    left: 0px;
+  }
+  #bt1{
+  display: none;    
+  border:none;
+  position: relative;
+  left:400px;
+  bottom: 20px;
+  background-color: cyan;
+  color:cyan;
+  border-radius: 50px;
+  
+  }
+  #bt1:hover{
+  transition: 100ms;
+  background-color:red;
+  color:white;
+  
+  }
+  h2{
+  color: white;
+  text-align: center;
+  
+  }
+  
+  .nany {
+  text-align: center;
+  color: white;
+  
+  
+  }
+  
+  
+  
+  
+  
+  /* this is for all the buttons     */
+  button{
+  text-align: center;
+  
+  }
+  
+  .bt2{
+      border:none;
+      background-color: white;
+      color:blue;
+      border-radius: 10px;
+      
+  
+  }
+  .bt2:hover{
+  
+      transition: 100ms;
+      background-color:red;
+      color:white;
+  
+  }
+  
+  
+  .bt2{
+      border:none;
+      background-color: white;
+      color:blue;
+      border-radius: 10px;
+      
+  
+  }
+  .bt2:hover{
+  
+      transition: 100ms;
+      background-color:red;
+      color:white;
+  
+  }
+  .bt3{
+      border:none;
+      background-color: white;
+      color:blue;
+      border-radius: 10px;
+      
+  
+  }
+  .bt3:hover{
+  
+      transition: 100ms;
+      background-color:purple;
+      color:white;
+  
+  }
+  .bt4{
+      border:none;
+      background-color: white;
+      color:blue;
+      border-radius: 10px;
+      
+  
+  }
+  .bt4:hover{
+  
+      transition: 100ms;
+      background-color:brown;
+      color:white;
+  
+  }
+  
+  
+  
+  
+  .bt5{
+      border:none;
+      background-color: white;
+      color:blue;
+      border-radius: 10px;
+      
+  
+  }
+  .bt5:hover{
+  
+      transition: 100ms;
+      background-color:green;
+      color:white;
+  
+  }
+  
+  
+  
   .button-49,
   .button-49:after {
-    margin: 65px;
-    width: 200px;
-    height: 86px;
-    line-height: 100px;
+    
+    width: 150px;
+    height: 76px;
+    line-height: 78px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+    border: 0;
+    color: #fff;
+    letter-spacing: 3px;
+    box-shadow: 6px 0px 0px #00E6F6;
+    outline: transparent;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
   }
+  
+  .button-49:after {
+    --slice-0: inset(50% 50% 50% 50%);
+    --slice-1: inset(80% -6px 0 0);
+    --slice-2: inset(50% -6px 30% 0);
+    --slice-3: inset(10% -6px 85% 0);
+    --slice-4: inset(40% -6px 43% 0);
+    --slice-5: inset(80% -6px 5% 0);
+    
+    content: 'ALTERNATE TEXT';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+    text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+    clip-path: var(--slice-0);
+  }
+  
+  .button-49:hover:after {
+    animation: 1s glitch;
+    animation-timing-function: steps(2, end);
+  }
+  
+  @keyframes glitch {
+    0% {
+      clip-path: var(--slice-1);
+      transform: translate(-20px, -10px);
+    }
+    10% {
+      clip-path: var(--slice-3);
+      transform: translate(10px, 10px);
+    }
+    20% {
+      clip-path: var(--slice-1);
+      transform: translate(-10px, 10px);
+    }
+    30% {
+      clip-path: var(--slice-3);
+      transform: translate(0px, 5px);
+    }
+    40% {
+      clip-path: var(--slice-2);
+      transform: translate(-5px, 0px);
+    }
+    50% {
+      clip-path: var(--slice-3);
+      transform: translate(5px, 0px);
+    }
+    60% {
+      clip-path: var(--slice-4);
+      transform: translate(5px, 10px);
+    }
+    70% {
+      clip-path: var(--slice-2);
+      transform: translate(-10px, 10px);
+    }
+    80% {
+      clip-path: var(--slice-5);
+      transform: translate(20px, -10px);
+    }
+    90% {
+      clip-path: var(--slice-1);
+      transform: translate(-10px, 0px);
+    }
+    100% {
+      clip-path: var(--slice-1);
+      transform: translate(0);
+    }
+  }
+  
+  @media (min-width: 360px) {
+    .button-49,
+    .button-49:after {
+      margin: 65px;
+      width: 200px;
+      height: 86px;
+      line-height: 100px;
+    }
+  }
+
+
+
+
 }
+@media only screen and (min-width:768px){
+
+
+
+
+    /* this is the welcome css photo  */
+    .welcome_photos{
+      position:relative;
+      left:-9px;
+     width: 1355px;
+    background-color: cyan;
+      
+      }
+      .wd{
+      text-align:center;
+      width:360px;
+      border-radius: 30px;
+      position: relative;
+      left:510px;
+    
+      
+      
+      /*this is for the black box one */
+      }
+      .what{
+      margin-top: 3px;
+      margin-bottom: 0px;
+      margin:3px;
+      padding:10px;
+      font-size: 16px;
+      text-align:center;
+      background-color:black;
+      width:1340px;
+      position: relative;
+      left: -11px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+    /*this one is the photo itself */
+    .wd1{
+        width:270px;
+        background-color: black;
+        border-radius: 30px;
+        position: relative;
+        left: 0px;
+      }
+      #bt1{
+      display: none;    
+      border:none;
+      position: relative;
+      left:400px;
+      bottom: 20px;
+      background-color: cyan;
+      color:cyan;
+      border-radius: 50px;
+      
+      }
+      #bt1:hover{
+      transition: 100ms;
+      background-color:red;
+      color:white;
+      
+      }
+      h2{
+      color: white;
+      text-align: center;
+      
+      }
+      
+      .nany {
+      text-align: center;
+      color: white;
+      
+      
+      }
+      
+      
+      
+      
+      
+      /* this is for all the buttons     */
+      button{
+      text-align: center;
+      
+      }
+      
+      .bt2{
+          border:none;
+          background-color: white;
+          color:blue;
+          border-radius: 10px;
+          
+      
+      }
+      .bt2:hover{
+      
+          transition: 100ms;
+          background-color:red;
+          color:white;
+      
+      }
+      
+      
+      .bt2{
+          border:none;
+          background-color: white;
+          color:blue;
+          border-radius: 10px;
+          
+      
+      }
+      .bt2:hover{
+      
+          transition: 100ms;
+          background-color:red;
+          color:white;
+      
+      }
+      .bt3{
+          border:none;
+          background-color: white;
+          color:blue;
+          border-radius: 10px;
+          
+      
+      }
+      .bt3:hover{
+      
+          transition: 100ms;
+          background-color:purple;
+          color:white;
+      
+      }
+      .bt4{
+          border:none;
+          background-color: white;
+          color:blue;
+          border-radius: 10px;
+          
+      
+      }
+      .bt4:hover{
+      
+          transition: 100ms;
+          background-color:brown;
+          color:white;
+      
+      }
+      
+      
+      
+      
+      .bt5{
+          border:none;
+          background-color: white;
+          color:blue;
+          border-radius: 10px;
+          
+      
+      }
+      .bt5:hover{
+      
+          transition: 100ms;
+          background-color:green;
+          color:white;
+      
+      }
+      
+      
+      
+      .button-49,
+      .button-49:after {
+        
+        width: 150px;
+        height: 76px;
+        line-height: 78px;
+        font-size: 20px;
+        font-family: 'Bebas Neue', sans-serif;
+        background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+        border: 0;
+        color: #fff;
+        letter-spacing: 3px;
+        box-shadow: 6px 0px 0px #00E6F6;
+        outline: transparent;
+        position: relative;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      }
+      
+      .button-49:after {
+        --slice-0: inset(50% 50% 50% 50%);
+        --slice-1: inset(80% -6px 0 0);
+        --slice-2: inset(50% -6px 30% 0);
+        --slice-3: inset(10% -6px 85% 0);
+        --slice-4: inset(40% -6px 43% 0);
+        --slice-5: inset(80% -6px 5% 0);
+        
+        content: 'ALTERNATE TEXT';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+        text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+        clip-path: var(--slice-0);
+      }
+      
+      .button-49:hover:after {
+        animation: 1s glitch;
+        animation-timing-function: steps(2, end);
+      }
+      
+      @keyframes glitch {
+        0% {
+          clip-path: var(--slice-1);
+          transform: translate(-20px, -10px);
+        }
+        10% {
+          clip-path: var(--slice-3);
+          transform: translate(10px, 10px);
+        }
+        20% {
+          clip-path: var(--slice-1);
+          transform: translate(-10px, 10px);
+        }
+        30% {
+          clip-path: var(--slice-3);
+          transform: translate(0px, 5px);
+        }
+        40% {
+          clip-path: var(--slice-2);
+          transform: translate(-5px, 0px);
+        }
+        50% {
+          clip-path: var(--slice-3);
+          transform: translate(5px, 0px);
+        }
+        60% {
+          clip-path: var(--slice-4);
+          transform: translate(5px, 10px);
+        }
+        70% {
+          clip-path: var(--slice-2);
+          transform: translate(-10px, 10px);
+        }
+        80% {
+          clip-path: var(--slice-5);
+          transform: translate(20px, -10px);
+        }
+        90% {
+          clip-path: var(--slice-1);
+          transform: translate(-10px, 0px);
+        }
+        100% {
+          clip-path: var(--slice-1);
+          transform: translate(0);
+        }
+      }
+      
+      @media (min-width: 360px) {
+        .button-49,
+        .button-49:after {
+          margin: 65px;
+          width: 200px;
+          height: 86px;
+          line-height: 100px;
+        }
+      }
+    
+    
+    
+    
+    }
+    
+    
+    
+
+
+@media only screen and (min-width:650px){
+
+
+  .welcome_photos{
+    position:relative;
+    left:-9px;
+   width: 1355px;
+  background-color: cyan;
+    
+    }
+    .wd{
+    text-align:center;
+    width:360px;
+    border-radius: 30px;
+    position: relative;
+    left:510px;
+  
+    
+    
+    /*this is for the black box one */
+    }
+    .what{
+    margin-top: 3px;
+    margin-bottom: 0px;
+    margin:3px;
+    padding:10px;
+    font-size: 16px;
+    text-align:center;
+    background-color:black;
+    width:1340px;
+    position: relative;
+    left: -11px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+  /*this one is the photo itself */
+  .wd1{
+      width:270px;
+      background-color: black;
+      border-radius: 30px;
+      position: relative;
+      left: 0px;
+    }
+    #bt1{
+    display: none;    
+    border:none;
+    position: relative;
+    left:400px;
+    bottom: 20px;
+    background-color: cyan;
+    color:cyan;
+    border-radius: 50px;
+    
+    }
+    #bt1:hover{
+    transition: 100ms;
+    background-color:red;
+    color:white;
+    
+    }
+    h2{
+    color: white;
+    text-align: center;
+    
+    }
+    
+    .nany {
+    text-align: center;
+    color: white;
+    
+    
+    }
+    
+    
+    
+    
+    
+    /* this is for all the buttons     */
+    button{
+    text-align: center;
+    
+    }
+    
+    .bt2{
+        border:none;
+        background-color: white;
+        color:blue;
+        border-radius: 10px;
+        
+    
+    }
+    .bt2:hover{
+    
+        transition: 100ms;
+        background-color:red;
+        color:white;
+    
+    }
+    
+    
+    .bt2{
+        border:none;
+        background-color: white;
+        color:blue;
+        border-radius: 10px;
+        
+    
+    }
+    .bt2:hover{
+    
+        transition: 100ms;
+        background-color:red;
+        color:white;
+    
+    }
+    .bt3{
+        border:none;
+        background-color: white;
+        color:blue;
+        border-radius: 10px;
+        
+    
+    }
+    .bt3:hover{
+    
+        transition: 100ms;
+        background-color:purple;
+        color:white;
+    
+    }
+    .bt4{
+        border:none;
+        background-color: white;
+        color:blue;
+        border-radius: 10px;
+        
+    
+    }
+    .bt4:hover{
+    
+        transition: 100ms;
+        background-color:brown;
+        color:white;
+    
+    }
+    
+    
+    
+    
+    .bt5{
+        border:none;
+        background-color: white;
+        color:blue;
+        border-radius: 10px;
+        
+    
+    }
+    .bt5:hover{
+    
+        transition: 100ms;
+        background-color:green;
+        color:white;
+    
+    }
+    
+    
+    
+    .button-49,
+    .button-49:after {
+      
+      width: 150px;
+      height: 76px;
+      line-height: 78px;
+      font-size: 20px;
+      font-family: 'Bebas Neue', sans-serif;
+      background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+      border: 0;
+      color: #fff;
+      letter-spacing: 3px;
+      box-shadow: 6px 0px 0px #00E6F6;
+      outline: transparent;
+      position: relative;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+    
+    .button-49:after {
+      --slice-0: inset(50% 50% 50% 50%);
+      --slice-1: inset(80% -6px 0 0);
+      --slice-2: inset(50% -6px 30% 0);
+      --slice-3: inset(10% -6px 85% 0);
+      --slice-4: inset(40% -6px 43% 0);
+      --slice-5: inset(80% -6px 5% 0);
+      
+      content: 'ALTERNATE TEXT';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+      text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+      clip-path: var(--slice-0);
+    }
+    
+    .button-49:hover:after {
+      animation: 1s glitch;
+      animation-timing-function: steps(2, end);
+    }
+    
+    @keyframes glitch {
+      0% {
+        clip-path: var(--slice-1);
+        transform: translate(-20px, -10px);
+      }
+      10% {
+        clip-path: var(--slice-3);
+        transform: translate(10px, 10px);
+      }
+      20% {
+        clip-path: var(--slice-1);
+        transform: translate(-10px, 10px);
+      }
+      30% {
+        clip-path: var(--slice-3);
+        transform: translate(0px, 5px);
+      }
+      40% {
+        clip-path: var(--slice-2);
+        transform: translate(-5px, 0px);
+      }
+      50% {
+        clip-path: var(--slice-3);
+        transform: translate(5px, 0px);
+      }
+      60% {
+        clip-path: var(--slice-4);
+        transform: translate(5px, 10px);
+      }
+      70% {
+        clip-path: var(--slice-2);
+        transform: translate(-10px, 10px);
+      }
+      80% {
+        clip-path: var(--slice-5);
+        transform: translate(20px, -10px);
+      }
+      90% {
+        clip-path: var(--slice-1);
+        transform: translate(-10px, 0px);
+      }
+      100% {
+        clip-path: var(--slice-1);
+        transform: translate(0);
+      }
+    }
+    
+    @media (min-width: 360px) {
+      .button-49,
+      .button-49:after {
+        margin: 65px;
+        width: 200px;
+        height: 86px;
+        line-height: 100px;
+      }
+    }
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

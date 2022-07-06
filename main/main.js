@@ -2,6 +2,8 @@ function freind (){
     let freind= document.querySelector("freind");
     if (freind==freind ){
         alert("U WILL BE BECOME AN ADDICT ");
+    }else{
+        alert("error code 1 something wrong happend")
     }
     }
     function friend2 (){

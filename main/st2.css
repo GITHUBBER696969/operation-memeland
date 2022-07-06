@@ -7,13 +7,6 @@ margin:10px;
 
 }
 
-button{
-
-
-
-
-}
-
 body{
 text-align: center;
 background-color:black;
@@ -37,8 +30,7 @@ text-align: center;
 
 .button-49,
 .button-49:after {
-  display:none;
-  width: 30px;
+   width: 30px;
   height: 76px;
   line-height: 78px;
   font-size: 20px;
@@ -150,7 +142,7 @@ margin-bottom:120px;
 }
 
 .button-7 {
-  display:none;
+
     background-color: #0095ff;
     border: 1px solid transparent;
     border-radius: 3px;
@@ -179,30 +171,29 @@ margin-bottom:120px;
   
   .button-7:hover,
   .button-7:focus {
-    display:none;
+    
     background-color: blue;
   }
   
   .button-7:focus {
-    display:none;
+  
     box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
   }
   
   .button-7:active {
-    display:none;
+    
     background-color: red;
     box-shadow: none;
   }
 
 
 .nigga{
-  display:none;
+ 
 text-align: center;
 }
 
 
 button {
-  display:none;
 text-align: center;
 
 
@@ -215,7 +206,7 @@ text-align: center;
 
     .button-50,
     .button-50:after {
-      display:none;
+      
       width: 150px;
       height: 76px;
       line-height: 78px;

@@ -8,10 +8,11 @@ margin:10px;
 }
 
 body{
+width:100%;
 text-align: center;
 background-color:black;
 color:white;
-font-size: 15px;
+font-size: 19px;
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Mono', monospace;
 
@@ -30,12 +31,14 @@ text-align: center;
 
 .button-49,
 .button-49:after {
+  position: relative;
+  right:900px;
    width: 30px;
   height: 76px;
   line-height: 78px;
   font-size: 20px;
   font-family: 'Bebas Neue', sans-serif;
-  background: linear-gradient(45deg, transparent 5%, black 5%);
+  background: linear-gradient(45deg, transparent 5%, red 5%);
   border: 0;
   color: black;
   letter-spacing: 3px;
@@ -119,10 +122,10 @@ text-align: center;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 758px) {
   .button-49,
   .button-49:after {
-    width: 350px;
+    width: 10px;
     height: 90px;
     line-height: 88px;
   }
@@ -149,7 +152,7 @@ margin-bottom:120px;
     box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
     box-sizing: border-box;
     color: #fff;
-    display: none;
+    display: inline-block;
     cursor: pointer; 
     font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
     font-size: 13px;
@@ -185,6 +188,108 @@ margin-bottom:120px;
     background-color: red;
     box-shadow: none;
   }
+
+  h2{
+
+    text-align:right;
+  }
+
+
+  .button-6 {
+
+    background-color: #0095ff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    height:89px;
+    display: inline-block;
+    cursor: pointer; 
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 17px;
+    font-weight: 250;
+    line-height: 1.13385;
+    margin:3px;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    word-spacing: 5px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+  
+  .button-6:hover,
+  .button-6:focus {
+    
+    background-color: blue;
+  }
+  
+  .button-6:focus {
+  
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  }
+  
+  .button-6:active {
+    
+    background-color: red;
+    box-shadow: none;
+  }
+
+
+
+
+
+  .button-76{
+
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: 3px;
+   box-sizing: border-box;
+    color: black;
+    display: inline-block;
+    cursor: pointer; 
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 10px;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    word-spacing: 10px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+  
+  .button-76:hover,
+  .button-76:focus {
+    
+    background-color: black;
+  }
+  
+  .button-76:focus {
+  
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  }
+  
+  .button-76:active {
+    
+    background-color: black;
+    box-shadow: none;
+  }
+
+
 
 
 .nigga{
@@ -309,7 +414,7 @@ text-align: center;
     
 
 
-@media (min-width: 400px){
+@media only screen and  (min-width: 415px){
 
     *{
         padding: 2px;
@@ -430,10 +535,10 @@ text-align: center;
           }
         }
         
-        @media (min-width: 768px) {
+        @media (min-width: 415px) {
           .button-49,
           .button-49:after {
-            width: 350px;
+            width: 250px;
             height: 90px;
             line-height: 88px;
           }
@@ -603,16 +708,123 @@ text-align: center;
               }
             }
             
-            @media (min-width: 768px) {
+            @media (min-width: 415px) {
                 
               .button-49,
               .button-49:after {
+                margin: 10px;
+                width: 220px;
+                height: 90px;
+                line-height: 88px;
+              }
+            }
+
+            .button-51,
+            .button-51:after {
+             position: relative;
+             right:900px;
+              width: 150px;
+              height: 76px;
+              line-height: 78px;
+              font-size: 20px;
+              font-family: 'Bebas Neue', sans-serif;
+              background: linear-gradient(45deg, transparent 5%, black 5%);
+              border: 0;
+              color: black;
+              letter-spacing: 3px;
+              box-shadow: 6px 0px 0px black;
+              outline: transparent;
+              position: relative;
+              user-select: none;
+              -webkit-user-select: none;
+              touch-action: manipulation;
+            
+            }
+            
+            .button-51:after {
+              --slice-0: inset(50% 50% 50% 50%);
+              --slice-1: inset(80% -6px 0 0);
+              --slice-2: inset(50% -6px 30% 0);
+              --slice-3: inset(10% -6px 85% 0);
+              --slice-4: inset(40% -6px 43% 0);
+              --slice-5: inset(80% -6px 5% 0);
+              
+              content: 'ALTERNATE TEXT';
+              display: none;
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+              text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+              clip-path: var(--slice-0);
+            }
+            
+            .button-51:hover:after {
+              display:none;
+              animation: 1s glitch;
+              animation-timing-function: steps(2, end);
+            }
+            
+            @keyframes glitch {
+              0% {
+                clip-path: var(--slice-1);
+                transform: translate(-20px, -10px);
+              }
+              10% {
+                clip-path: var(--slice-3);
+                transform: translate(10px, 10px);
+              }
+              20% {
+                clip-path: var(--slice-1);
+                transform: translate(-10px, 10px);
+              }
+              30% {
+                clip-path: var(--slice-3);
+                transform: translate(0px, 5px);
+              }
+              40% {
+                clip-path: var(--slice-2);
+                transform: translate(-5px, 0px);
+              }
+              50% {
+                clip-path: var(--slice-3);
+                transform: translate(5px, 0px);
+              }
+              60% {
+                clip-path: var(--slice-4);
+                transform: translate(5px, 10px);
+              }
+              70% {
+                clip-path: var(--slice-2);
+                transform: translate(-10px, 10px);
+              }
+              80% {
+                clip-path: var(--slice-5);
+                transform: translate(20px, -10px);
+              }
+              90% {
+                clip-path: var(--slice-1);
+                transform: translate(-10px, 0px);
+              }
+              100% {
+                clip-path: var(--slice-1);
+                transform: translate(0);
+              }
+            }
+            
+            @media (min-width: 768px) {
+                
+              .button-51,
+              .button-51:after {
                 margin: 10px;
                 width: 450px;
                 height: 90px;
                 line-height: 88px;
               }
             }
+            
 
 
 

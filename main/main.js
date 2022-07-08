@@ -164,7 +164,7 @@ function final (){
         alert("u got it no");
     }
     }
-    function final2 (){
+function final2 (){
         let raw3 = document.querySelector("raw");
         if (raw3 == raw3 ){
             alert("FOR THE MOTHERLAND");
@@ -177,6 +177,64 @@ function final (){
             }
             }
 
+           //class function 
 
+            function class1 (){
+                let raw3 = document.querySelector("raw");
+                if (raw3 == raw3 ){
+                    alert("yeah no ");
+                }
+                }
+                function class2 (){
+                    let raw3 = document.querySelector("raw");
+                    if (raw3 == raw3 ){
+                        alert("correct");
+                    }
+                    }
+                    function class3 (){
+                        let raw3 = document.querySelector("raw");
+                        if (raw3 == raw3 ){
+                            alert("there is another of what u have to find it.");
+                        }
+                        }
 
+// class 21
+function class21 (){
+    let raw3 = document.querySelector("raw");
+    if (raw3 == raw3 ){
+        alert("yes ");
+    }
+    }
+    function class22 (){
+        let raw3 = document.querySelector("raw");
+        if (raw3 == raw3 ){
+            alert("bro the pic was taken in class 5 if memory serves ");
+        }
+        }
+        function class33 (){
+            let raw3 = document.querySelector("raw");
+            if (raw3 == raw3 ){
+                alert("there is another of what u have to find it.");
+            }
+            }
 
+// final 21
+
+function final21 (){
+    let raw3 = document.querySelector("raw");
+    if (raw3 == raw3 ){
+        alert("man this tells u alot about my coding skills that they are not that good to built such a complicated website");
+    }
+    }
+function final22 (){
+        let raw3 = document.querySelector("raw");
+        if (raw3 == raw3 ){
+            alert("if u are using it on phone im surprised");
+        }
+        }
+        function final33 (){
+            let raw3 = document.querySelector("raw");
+            if (raw3 == raw3 ){
+                alert("if u are using on ur phone and found one im proud cuz animation work weirdly on phone and idk why i have the feeling u choosed every botton to see the what kinds answer u will get which is cool ");
+            }
+            }
